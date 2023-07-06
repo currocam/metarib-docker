@@ -21,5 +21,5 @@ jobs:
         
     - name: Build and push metarib-docker image
       run: |
-        docker build . --tag ghcr.io/AU-ENVS-Bioinformatics/metarib-docker:latest
-        docker push ghcr.io/AU-ENVS-Bioinformatics/metarib-docker:latest
+        docker build . --tag ghcr.io/au-envs-bioinformatics/metarib-docker:latest
+        docker push ghcr.io/au-envs-bioinformatics/metarib-docker:latest
